@@ -1,0 +1,15 @@
+.lead__image-vector {
+  margin: 7vw 2vw 0px 2vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image-vector {
+    margin: 8vw 2vw 0px 2vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image-vector {
+    margin: 9 vw 2vw 0px 2vw;
+  }
+}
