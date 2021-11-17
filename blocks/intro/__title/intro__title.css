@@ -8,7 +8,13 @@
   margin-left: calc(22vw / 2);
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1662px) {
+  .intro__title {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1662px){
   .intro__title {
     margin-left: calc((1280px - 77vw)/2);
   }

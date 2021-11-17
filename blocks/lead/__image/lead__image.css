@@ -2,6 +2,7 @@
   margin: 0 auto;
   margin-top: 64px;
   width: 77vw;
+  max-width: 1280px;
   height: 48vw;
   background-image: url(../../../images/lead/kalegin-michail-179870-unsplash.png);
   background-size: cover;
