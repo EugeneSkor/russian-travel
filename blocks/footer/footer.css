@@ -1,7 +1,22 @@
 .footer {
-  background-color: #1f1f1f;
-  position: relative;
   display: flex;
-  justify-content: center;
-  min-height: 350px;
+  justify-content: space-between;
+  margin: 92px 48px 24px 48px;
+}
+
+@media screen and (min-width: 711px) and (max-width: 1000px) {
+  .footer {
+    margin: 88px 24px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .footer {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 64px;
+    margin-left: 16px;
+    margin-bottom: 24px;
+  }
 }
