@@ -1,0 +1,11 @@
+.places-section__place-website_place-link {
+  margin: 0;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.22;
+  font-weight: normal;
+  color: #fff;
+  margin-top: 12px;
+  text-decoration-line: underline;
+}
+

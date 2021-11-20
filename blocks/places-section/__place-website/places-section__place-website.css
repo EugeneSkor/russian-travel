@@ -1,0 +1,18 @@
+.places-section__place-website {
+  display: flex;
+  flex-direction: column;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  justify-self: start;
+  align-self: end;
+}
+
+
+@media screen and (max-width: 699px) {
+  .places-section__place-website {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    margin: 32px 5vw 0 5vw;
+  }
+}

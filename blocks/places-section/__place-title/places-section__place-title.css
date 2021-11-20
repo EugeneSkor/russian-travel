@@ -1,0 +1,23 @@
+.places-section__place-title {
+  margin: 0;
+  font-size: 72px;
+  line-height: 1.06;
+  font-weight: bold;
+  color: #fff;
+  grid-row-start: 1;
+}
+
+@media screen and (min-width: 700px) and (max-width: 949px) {
+  .places-section__place-title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .places-section__place-title {
+    font-size: 32px;
+    line-height: 1.09;
+    margin: 0 5vw;
+  }
+}

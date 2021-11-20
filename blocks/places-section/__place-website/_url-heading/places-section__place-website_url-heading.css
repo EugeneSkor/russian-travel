@@ -1,0 +1,14 @@
+.places-section__place-website_url-heading {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1,7;
+  font-weight: normal;
+  color: #aaa;
+}
+
+@media screen and (max-width: 949px) {
+  .places-section__place-website_url-heading {
+    line-height: 1;
+  }
+}
+

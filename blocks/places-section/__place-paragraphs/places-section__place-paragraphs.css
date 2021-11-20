@@ -1,0 +1,19 @@
+.places-section__place-paragraphs {
+  display: flex;
+  flex-direction: column;
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+@media screen and (min-width: 1250px) {
+  .places-section__place-paragraphs {
+    min-width: 39vw;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .places-section__place-paragraphs {
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+}

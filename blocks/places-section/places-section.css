@@ -1,0 +1,17 @@
+.places-section {
+  margin: 0 auto;
+  margin-top: 92px;
+  min-width: 77%;
+}
+
+@media screen and (min-width: 700px) and (max-width: 949px) {
+  .places-section {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .places-section {
+    margin-top: 64px;
+  }
+}
