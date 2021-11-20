@@ -11,7 +11,7 @@
   margin-left: 18px;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 740px) {
   .footer__link {
     justify-content: flex-start;
     font-size: 24px;

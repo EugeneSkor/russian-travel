@@ -1,0 +1,11 @@
+.cover__text {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  top: 20%;
+  left: 26%;
+}
+
+.cover__text:hover > .cover__overlay {
+  opacity: 0.8
+}

@@ -10,7 +10,7 @@
   }
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 740px) {
   .footer {
     justify-content: flex-start;
     flex-wrap: wrap;
