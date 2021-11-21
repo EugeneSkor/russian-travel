@@ -31,8 +31,8 @@
 @import url(../blocks/places-section/__place-title/places-section__place-title.css);
 @import url(../blocks/places-section/__place-image/places-section__place-image.css);
 @import url(../blocks/places-section/__place-website/places-section__place-website.css);
-@import url(../blocks/places-section/__place-website/_url-heading/places-section__place-website_url-heading.css);
-@import url(../blocks/places-section/__place-website/_place-link/places-section__place-website_place-link.css);
+@import url(../blocks/places-section/__url-heading/places-section__url-heading.css);
+@import url(../blocks/places-section/__place-link/places-section__place-link.css);
 @import url(../blocks/places-section/__place-paragraphs/places-section__place-paragraphs.css);
 @import url(../blocks/places-section/__place-paragraph/places-section__place-paragraph.css);
 

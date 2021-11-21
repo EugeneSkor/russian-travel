@@ -1,4 +1,4 @@
-.places-section__place-website_url-heading {
+.places-section__url-heading {
   margin: 0;
   font-size: 12px;
   line-height: 1,7;
@@ -7,8 +7,7 @@
 }
 
 @media screen and (max-width: 949px) {
-  .places-section__place-website_url-heading {
+  .places-section__url-heading {
     line-height: 1;
   }
 }
-
