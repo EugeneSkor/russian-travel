@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1080px) {
   .intro__text {
     max-width: 720px;
     margin-left: calc(8vw/2);

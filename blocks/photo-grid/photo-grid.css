@@ -4,3 +4,9 @@
   max-width: 1184px;
   min-height: 671px;
 }
+
+@media screen and (max-width: 380px) {
+  .photo-grid {
+  margin-top: 64px;
+  }
+}

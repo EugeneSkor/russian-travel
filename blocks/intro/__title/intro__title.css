@@ -3,7 +3,7 @@
   margin-top: 92px;
   font-size: 54px;
   line-height: 1.07;
-  font-weight: bold;
+  font-weight: 900;
   color: #fff;
   margin-left: calc(22vw / 2);
 }
@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1023px) {
+@media screen and (min-width: 769px) and (max-width: 1080px) {
   .intro__title {
     margin-left: calc(8vw/2);
   }

@@ -1,7 +1,7 @@
 .places-section__place {
   display: grid;
   grid-template-columns: min-content minmax(min-content, max-content);
-  grid-template-rows: min-content min-content min-content;
+  grid-template-rows: min-content min-content;
   gap: 48px 40px;
 }
 

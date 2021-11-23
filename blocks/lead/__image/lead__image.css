@@ -10,7 +10,7 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   .lead__image {
     margin-top: 56px;
     width: 91vw;
@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 790px) {
   .lead__image {
     margin-top: 56px;
     width: 100%;
