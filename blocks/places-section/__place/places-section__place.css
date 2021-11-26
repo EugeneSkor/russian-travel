@@ -19,6 +19,10 @@
   .places-section__place {
     gap: 48px 28px;
   }
+
+  .places-section__place:nth-child(1n+2) {
+    margin-top: 73px;
+  }
 }
 
 @media screen and (max-width: 699px) {
@@ -26,5 +30,9 @@
     grid-template-columns:minmax(min-content, max-content);
     grid-template-rows: repeat(4, min-content);
     gap: 0;
+  }
+
+  .places-section__place:nth-child(1n+2) {
+    margin-top: 50px;
   }
 }

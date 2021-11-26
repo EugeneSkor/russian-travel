@@ -7,4 +7,12 @@
   color: #fff;
   margin-top: 12px;
   text-decoration-line: underline;
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
+
+.places-section__place-link:hover {
+  opacity: 0.8;
+  animation-fill-mode: forwards;
+}
+
