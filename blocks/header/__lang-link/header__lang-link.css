@@ -1,15 +1,18 @@
 .header__lang-link {
+  display: flex;
   margin-top: 18px;
   font-size: 24px;
   line-height: 1.15;
   font-weight: normal;
   text-decoration: none;
   color: #fff;
-  ;
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 
-.header__lang-link:first-of-type {
-  text-decoration: underline;
+.header__lang-link:hover {
+  opacity: 0.8;
+  animation-fill-mode: forwards;
 }
 
 .header__lang-link:last-of-type {

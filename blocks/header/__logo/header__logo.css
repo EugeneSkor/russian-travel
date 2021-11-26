@@ -2,6 +2,13 @@
   width: 176px;
   height: 52px;
   color: #fff;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.header__logo:hover {
+  opacity: 0.8;
+  animation-fill-mode: forwards;
 }
 
 @media screen and (max-width: 425px) {
