@@ -1,5 +1,30 @@
 .intro {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  width: 77vw;
 }
 
+@media screen and (min-width: 1662px) {
+  .intro {
+    width: 91vw;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .intro {
+    width: 91vw;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .intro {
+    width: 92vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    width: 86vw;
+  }
+}

@@ -5,36 +5,10 @@
   margin-inline: 0;
   padding-inline-start: 0;
   margin-top: 33px;
-  margin-left: calc(22vw / 2);
-}
-
-@media screen and (min-width: 1662px) {
-  .intro__list {
-    margin-left: 0px;
-  }
-}
-
-@media screen and (min-width: 1280px) and (max-width: 1662px){
-  .intro__list {
-    margin-left: calc((1280px - 77vw)/2);
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1080px) {
-  .intro__list {
-    margin-left: calc(8vw/2);
-  }
-}
-
-@media screen and (min-width: 425px) and (max-width: 768px) {
-  .intro__list {
-    margin-left: 3%;
-  }
 }
 
 @media screen and (max-width: 425px) {
   .intro__list {
     margin-top: 34px;
-    margin-left: 5%;
   }
 }

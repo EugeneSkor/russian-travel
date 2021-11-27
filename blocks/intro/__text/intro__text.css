@@ -5,39 +5,17 @@
   line-height: 1.63;
   font-weight: normal;
   color: #fff;
-  margin-left: calc(22vw / 2);
   max-width: 690px;
 }
 
-@media screen and (min-width: 1662px) {
-  .intro__text {
-    margin-left: 0px;
-  }
-}
-
-@media screen and (min-width: 1280px) and (max-width: 1662px) {
-  .intro__text {
-    margin-left: calc((1280px - 77vw)/2);
-  }
-}
-
-@media screen and (min-width: 740px) and (max-width: 1080px) {
+@media screen and (max-width: 1080px) {
   .intro__text {
     max-width: 720px;
-    margin-left: 3%;
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 739px) {
+@media screen and (max-width: 739px) {
   .intro__text {
-    margin-left: 3%;
-    max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .intro__text {
-    margin-left: 5%;
     max-width: 100%;
   }
 }
