@@ -13,6 +13,7 @@
 
 @media screen and (max-width: 425px) {
   .header__logo {
+    display: flex;
     width: 142px;
     height: 42px;
   }

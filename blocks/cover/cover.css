@@ -2,9 +2,9 @@
   display: flex;
   background-image: url("../../images/cover/__background.png");
   position: relative;
-  width: 93%;
-  min-height: 57vw;
-  background-size: 100%;
+  max-width: 1184px;
+  height: 740px;
+  background-size: cover;
   margin: 0 auto;
   margin-top: 92px;
   justify-content: center;

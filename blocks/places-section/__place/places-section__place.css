@@ -9,13 +9,13 @@
   margin-top: 80px;
 }
 
-@media screen and (min-width: 950px) and (max-width: 1220px) {
+@media screen and (max-width: 1080px) {
   .places-section__place {
     gap: 48px 32px;
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 949px) {
+@media screen and (max-width: 1000px) {
   .places-section__place {
     gap: 48px 28px;
   }
@@ -25,7 +25,7 @@
   }
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 740px) {
   .places-section__place {
     grid-template-columns:minmax(min-content, max-content);
     grid-template-rows: repeat(4, min-content);

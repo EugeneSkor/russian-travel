@@ -3,29 +3,24 @@
   margin-block: 0;
   margin-inline: 0px;
   padding-inline-start: 0;
-  margin: 0 12vw 0 12vw;
+  margin: 0 auto;
+  max-width: 984px;
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (max-width: 1080px) {
   .places-section__places {
-    margin: 0;
+    max-width: 928px;
   }
 }
 
-@media screen and (min-width: 950px) and (max-width: 1220px) {
+@media screen and (max-width: 1000px) {
   .places-section__places {
-  margin: 0 5vw 0 5vw;
+    max-width: 720px;
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 949px) {
+@media screen and (max-width: 740px) {
   .places-section__places {
-  margin: 0 3vw 0 3vw;
-  }
-}
-
-@media screen and (max-width: 699px) {
-  .places-section__places {
-  margin: 0;
+    max-width: 100%;
   }
 }

@@ -8,22 +8,16 @@
   text-transform: uppercase;
   color: #fff;
   margin-top: 8px;
-  width: 77vw;
-}
-
-@media screen and (min-width: 1662px) {
-  .lead__caption {
-    width: 1280px;
-  }
+  width: 984px;
 }
 
 @media screen and (max-width: 1080px) {
   .lead__caption {
-    width: 91vw;
+    width: 928px;
   }
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 970px) {
   .lead__caption {
     width: 92vw;
   }

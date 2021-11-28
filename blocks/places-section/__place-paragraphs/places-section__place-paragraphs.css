@@ -3,16 +3,24 @@
   flex-direction: column;
   grid-row-start: 2;
   grid-column-start: 2;
+  width: 484px;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1080px) {
   .places-section__place-paragraphs {
-    min-width: 39vw;
+    width: 456px;
   }
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 1000px) {
   .places-section__place-paragraphs {
+    width: 352px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .places-section__place-paragraphs {
+    width: 100%;
     grid-row-start: 4;
     grid-column-start: 1;
   }

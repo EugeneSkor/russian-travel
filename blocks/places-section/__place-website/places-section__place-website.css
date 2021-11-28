@@ -9,7 +9,7 @@
 }
 
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 740px) {
   .places-section__place-website {
     grid-row-start: 2;
     grid-column-start: 1;

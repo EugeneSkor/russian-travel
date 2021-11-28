@@ -11,10 +11,9 @@
   margin-top: 27px;
 }
 
-@media screen and (max-width: 949px) {
+@media screen and (max-width: 1000px) {
   .places-section__place-paragraph {
     font-size: 16px;
-    line-height: 1.63;
     gap: 48px 28px;
   }
 
@@ -23,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 740px) {
   .places-section__place-paragraph {
     margin: 32px 5vw 0 5vw;
   }

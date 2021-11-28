@@ -2,22 +2,16 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 77vw;
-}
-
-@media screen and (min-width: 1662px) {
-  .intro {
-    width: 1280px;
-  }
+  width: 984px;
 }
 
 @media screen and (max-width: 1080px) {
   .intro {
-    width: 91vw;
+    width: 928px;
   }
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 970px) {
   .intro {
     width: 92vw;
   }

@@ -4,22 +4,22 @@
   grid-column-start: 1;
 }
 
-@media screen and (min-width: 950px) and (max-width: 1220px) {
+@media screen and (max-width: 1080px) {
   .places-section__place-image {
     width: 440px;
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 949px) {
+@media screen and (max-width: 1000px) {
   .places-section__place-image {
     width: 340px;
   }
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 740px) {
   .places-section__place-image {
     margin: 32px auto 0 auto;
-    max-width: 100%;
+    width: 100%;
     grid-row-start: 3;
     grid-column-start: 1;
   }
