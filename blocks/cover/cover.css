@@ -11,12 +11,6 @@
   align-items: center;
 }
 
-@media screen and (min-width: 1300px) {
-  .cover {
-    min-height: 760px;
-  }
-}
-
 @media screen and (max-width: 1080px) {
   .cover {
     min-height: 640px;
